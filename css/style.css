@@ -1,18 +1,41 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.5em;
     font-size: 1.6rem;
     text-align: center;
-    color: #333;
+     background-color: rgb(209, 207, 207);
 }
 
 h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
+    font-size: 2rem;
+    margin: .8em 0 .1em 0;
+}
+
+p {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 17px;
+    padding: 2em;
+}
+
+li {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+#img-div {
+    background-color: #ffffff;
+    padding: .4em .4em .4em .4em;
+}
+
+#image {
+    width: 100%;
 }
 
 #img-caption {
     margin: 15px 0 5px 0;
+    font-size: 12px;
 }
 
 #headline {
@@ -29,7 +52,8 @@ ul {
 
 blockquote {
     font-style: italic;
-    max-width: 545px;
     margin: 0 auto 50px auto;
     text-align: left;
+    font-size: 15px;
+    line-height: 25px;
 }
