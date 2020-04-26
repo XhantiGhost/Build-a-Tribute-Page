@@ -2,7 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.6rem;
     text-align: center;
-     background-color: rgb(209, 207, 207);
+     background-color: rgb(235, 231, 231);
 }
 
 h1 {
@@ -16,7 +16,7 @@ p {
 
 h3 {
     font-size: 17px;
-    padding: 2em;
+    padding: 3em;
 }
 
 li {
@@ -35,7 +35,8 @@ li {
 
 #img-caption {
     margin: 15px 0 5px 0;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 1.5;
 }
 
 #headline {
@@ -50,10 +51,29 @@ ul {
     line-height: 1.6;
 }
 
-blockquote {
+blockquote  {
     font-style: italic;
     margin: 0 auto 50px auto;
     text-align: left;
     font-size: 15px;
     line-height: 25px;
+    padding: .3em;
+}
+
+figcaption {
+    font-style: italic;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    padding: .3em;
+}
+
+footer {
+    font-size: 17px;
+    margin-bottom: 2em;
+}
+
+a {
+    color: rgb(15, 121, 156);
 }
