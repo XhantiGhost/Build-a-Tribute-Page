@@ -5,6 +5,15 @@ body {
      background-color: #ffffff;
 }
 
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
 #main {
     background-color: rgb(235, 231, 231);
 }
